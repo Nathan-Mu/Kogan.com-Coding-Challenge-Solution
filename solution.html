@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        #result {
+            display: none;
+        }
+        #table {
+            width: 800px;
+            margin: auto;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table class='table' id="table">
+        <tr>
+            <td>Name</td>
+            <td>Dongyu Zhao (Nathan)</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <a href="mailto:nathan.zhao.n@gmail.com">nathan.zhao.n@gmail.com</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Mobile</td>
+            <td>0451651520</td>
+        </tr>
+        <tr>
+            <td>Challenge Description</td>
+            <td>
+                Using the provided (paginated) API, find the average cubic weight for all products in the "Air Conditioners" category.
+                Cubic weight is calculated by multiplying the length, height and width of the parcel. The result is then multiplied by the industry standard cubic weight conversion factor of 250.
+            </td>
+        </tr>
+        <tr>
+            <td>Assumptions</td>
+            <td>
+                1. The result will be rounded up to 1 decimal place in kilograms.<br>
+                2. If there is no items listed in "Air Conditioners" category, the result will be displayed as 0.
+            </td>
+        </tr>
+        <tr>
+            <td>Solution</td>
+            <td>
+                <button id="btn">Check out the result</button>
+                <spam id="result"></spam>
+            </td>
+        </tr>
+
+
+      </table>
+    <script src="solution.js"></script>
+</body>
+</html>
